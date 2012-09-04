@@ -1,0 +1,29 @@
+<html>
+<script language="JavaScript">
+var a;
+var b;
+var c=1;
+var d=0;
+a=prompt("Cuantas calificaciones desea promediar");
+while(c<=a){
+b=prompt("Digite la calificacion");
+b=parseInt(b);
+c++;
+d=d+b/a;
+d=parseInt(d)
+}
+if (d>=90){
+alert("su califiacion es "+d+" Esta aprobado, exelente");
+}
+if (d<70){
+alert("su califiacion es "+d+" reprobado, debe repetir");
+}
+if (d>=70 & d<80){
+alert("su califiacion es "+d+" aprobado,debe esforzarte ");
+}
+else {
+alert("su califiacion es "+d+" Esta aprobado, Bueno");
+
+}
+</script>
+</html>
